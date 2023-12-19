@@ -1,0 +1,25 @@
+export default function VectorDashboardSeven({
+  className = "",
+}: VectorDashboardSevenProps) {
+  return (
+    <div className={`${className}`}>
+      <svg width="100%" height="100%" style={{"overflow":"visible"}} preserveAspectRatio="none" viewBox="0 0 78.4 118.3" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.4403 118.94C16.0776 118.944 12.7208 118.659 9.40725 118.087C9.26332 118.062 9.13523 117.981 9.05107 117.862C8.96692 117.743 8.93358 117.595 8.95839 117.452C8.97114 117.382 8.99789 117.315 9.03706 117.255C9.07623 117.195 9.12703 117.144 9.18643 117.104C9.24584 117.064 9.31263 117.037 9.38288 117.023C9.45312 117.01 9.52536 117.01 9.59534 117.025C18.3117 118.52 27.2548 118.013 35.745 115.541C44.2353 113.07 52.049 108.7 58.5925 102.764C65.1359 96.8274 70.2367 89.4808 73.5072 81.2823C76.7778 73.0839 78.1319 64.2495 77.4667 55.4506C76.8014 46.6516 74.1344 38.1198 69.6683 30.5036C65.2021 22.8875 59.0544 16.3874 51.6925 11.4975C44.3305 6.60759 35.9482 3.45659 27.1825 2.284C18.4168 1.11141 9.49848 1.94809 1.10552 4.73044C1.03676 4.75312 0.964174 4.76207 0.891939 4.75677C0.819704 4.75147 0.749241 4.73203 0.684538 4.69955C0.619834 4.66708 0.56216 4.62221 0.514838 4.5675C0.467517 4.51279 0.43146 4.44932 0.408724 4.38071C0.385988 4.31209 0.377034 4.23968 0.382346 4.16761C0.387657 4.09554 0.407145 4.02523 0.439695 3.96067C0.472245 3.89612 0.517197 3.83859 0.572031 3.79137C0.626865 3.74416 0.690495 3.70818 0.759264 3.6855C31.7561 -6.62742 65.399 10.1513 75.7356 41.0901C78.1975 48.4579 79.1807 56.2373 78.629 63.9842C78.0772 71.7311 76.0014 79.2937 72.5201 86.2401C69.0387 93.1865 64.22 99.3807 58.3391 104.469C52.4582 109.557 45.6303 113.44 38.2453 115.895C32.1815 117.911 25.8319 118.939 19.4403 118.94Z" fill="url(#paint0_linear_115_199)"/><defs><linearGradient id="paint0_linear_115_199" x1="0.378813" y1="59.7924" x2="78.8092" y2="59.7924" gradientUnits="userSpaceOnUse"><stop stop-color="#3CC18E"/><stop offset="1" stop-color="#009FB0"/></linearGradient></defs></svg>
+    </div>
+  );
+}
+
+interface VectorDashboardSevenProps {
+  className: string;
+}
+
+/**
+ * This component was generated from Figma with FireJet.
+ * Learn more at https://www.firejet.io
+ *
+ * README:
+ * The output code may look slightly different when copied to your codebase. To fix this:
+ * 1. Include the necessary fonts. The required fonts are imported from public/index.html
+ * 2. Include the global styles. They can be found in App.css
+ *
+ * Note: Step 2 is not required for tailwind.css output
+ */
